@@ -8,7 +8,7 @@ from scipy.io.wavfile import write
 import glob
 
 from pyechonest import config
-config.ECHO_NEST_API_KEY="4AMNMQMNTL9LURSWX"
+config.ECHO_NEST_API_KEY="INSERT_KEY_HERE"
 
 class Song:
     def __init__(self, song_path):
